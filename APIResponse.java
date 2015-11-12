@@ -1,4 +1,4 @@
-package com.cloume.pleader.bridge;
+package com.edward.http;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -51,14 +51,10 @@ public class APIResponse {
 	/** 操作成功 */
     public static final int RC_SUCCESS = 0;
     public static final int RC_OK = RC_SUCCESS;
-    
-    /** 用户不存在 */
-    public static final int RC_USER_NOT_EXSIST = 10002;
-
-    public static final int RC_ORDER_EXPIRED = 10003;
   
     /** 程序内部错误 */
     public static final int RC_INTERNAL_ERROR = 10099;
+    
     /**参数不为数字    */
     public static final int RC_NOT_NUMBER = 10012; 
 
